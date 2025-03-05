@@ -1,31 +1,37 @@
-# AI Battleship Game
-
 ## Project Overview
 
 This game was written for a Java programming assignment, using OOP principles. The project was developed between November 2021 and December 2021.
 
 ## Description
 
-This game is a computer-based adaptation of Battleship. Players have the opportunity to compete against an AI opponent. The AI strategically places battleships before the start of the game and anticipates the player's ship placement during gameplay. The system records hits and misses, calculates remaining ships, and prints the results of the game upon completion.
+AI Battleship is a digital adaptation of the classic Battleship game, where players compete against an AI opponent. The AI strategically places its ships before the game begins and predicts the player's ship placement during gameplay. The system tracks hits and misses, calculates remaining ships, and displays the final game results.
 
 ## Classes
 
-1. **Grid.java:** Represents the main grid used for the game.
-2. **ComputerGrid.java:** Manages the grid for the computer's ships. It inheritants the attributes of Grid class.
-3. **Ship.java:** Defines the `Ship` class, storing information about ship types (Carrier, Battleship, Cruiser, Submarine, Destroyer).
-4. **BattleshipMain.java:** Main class for initiating and running the Battleship game.
-5. **Display.java:** Handles the display and user interface aspects of the game.
+The game is structured using several key classes:
+
+- Grid.java – Represents the primary grid used in the game.
+
+- ComputerGrid.java – Manages the AI’s grid, inheriting attributes from the Grid class.
+
+- Ship.java – Defines the Ship class, which includes ship types such as Carrier, Battleship, Cruiser, Submarine, and Destroyer.
+
+- BattleshipMain.java – Serves as the main entry point to initialize and run the game.
+
+- Display.java – Handles the user interface and visual representation of the game.
 
 ## Gameplay
 
-- The AI strategically places battleships before the game starts.
-- The AI anticipates the player's ship placement and records hits and misses.
-- The game calculates remaining ships and displays results upon completion.
+- The AI places its ships strategically before the game begins.
+
+- During gameplay, the AI predicts the player’s ship placement and records hits and misses.
+
+- The system calculates the number of remaining ships and displays the final results upon game completion.
 
 ## How to Run
 
-To run the `BattleshipGameAI`, execute the `BattleshipMain.java` file.
+To start the AI Battleship game, execute the BattleshipMain.java file.
 
 ## Note
 
-The player must record their own grid, the file stored of the opponent's grid only shows the hits and misses AI did.
+Players must manually track their own grid, as the stored file for the AI's grid only records the hits and misses made by the AI.
