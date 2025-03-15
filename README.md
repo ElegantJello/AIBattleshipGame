@@ -1,6 +1,6 @@
 ## Project Overview
 
-This game was written for a Java programming assignment, using OOP principles. The project was developed between November 2021 and December 2021.
+The project was developed between November 2021 and December 2021.
 
 ## Description
 
